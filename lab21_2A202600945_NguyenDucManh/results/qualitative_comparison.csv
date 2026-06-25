@@ -1,0 +1,36 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một kỹ thuật trong trí thông minhhệ máy tính để máy tự học và cải thiện bằng việc tiếp nhận dữ liệu và thực hiện phân tích, dự đoán kết quả dựa trên những gì đã học được. Nó giúp máy tự động học và cải thiện mà không cần phải được hướng dẫn chi tiết từng bước.","Machine learning là một loại trí thông minhell, giúp máy tự động học và cải thiện qua thời gian. Nó sử dụng thuật toán và mô hình toán học để phân tích dữ liệu và đưa ra dự đoán dựa trên những gì đã học được trước đó. Trong machine learning, máy không cần được dạy cụ thể từng câu lệnh, mà nó có thể "
+Viết đoạn code Python tính số Fibonacci thứ n.,"def fibonacci(n):
+    if n <= 0:
+        print(""Nhập số nguyên dương!"")
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        for i in range(2, n):
+            a, b = b, a + b
+        return b
+
+print(fibonacci(9)) # Output: 34
+print(fibonacci(11)) ","# Instruction:
+Viết đoạn code Python tính số Fibonacci thứ n.
+
+# Response:
+def fibonacci(n):
+    if n < 0:
+        print(""Input is not a positive integer."")
+    elif n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. Người dùng là trung tâm: Thiết kế UI/UX phải tập trung vào nhu cầu và trải nghiệm của người dùng, tạo ra trải nghiệm tốt nhất cho họ.
+2. Đơn giản và trực quan: UI/UX phải đơn giản và dễ sử dụng, tránh phức tạp và khó hiểu. Các yếu tố cơ bản nên được tập trung và hiển thị rõ ràng.
+3. Phân phối hiệ","1. Thỏa mãn nhu cầu người dùng: UI/UX phải đáp ứng nhu cầu của người dùng, tạo ra trải nghiệm tốt nhất cho người dùng.
+2. Hiệu quả: UI/UX phải mang lại hiệu quả ca diệp cho người dùng, giúp họ hoàn thành công việc một cách nhanh chóng và dễ dàng.
+3. Dễ nhớ: UI/UX phải dễ nhớ và dễ sử dụng, giúp ngườ"
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai phương pháp cải tiến để tăng hiệu quả của các mô hình NLU (Nội dung Thuyết Trí Tuệ Máy học). LoRA là một phương pháp được sử dụng để làm cho các mô hình NLU nhỏ hơn bằng cách thêm một số tham số nhỏ vào mô hình. LoRA được sử dụng để làm cho,"LoRA và QLoRA là hai phương pháp cải thiện hiệu suất của các mô hình NLU (Nền Tảng Học Lượng). LoRA cải thiện hiệu suất của các mô hình NLU bằng cách thêm một số lớp mới vào mô hình, trong khi QLoRA cải thiện hiệu suất của các mô hình NLU bằng cách sử dụng kỹ thuật phân cấp (Quantization) để giảm số"
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt Engineering là một kỹ thuật trong lập trí máy học (ML) để cải thiện hiệu suất của mô hình bằng cách tối ưu hóa việc cung cấp dữ liệu cho mô hình. RAG (Relevant, Augmented, and Generated) là một cách để lập trí máy học mà sử dụng dữ liệu đã có (relevant), dữ liệu đã bổ sung (augmented) và dữ l","Prompt Engineering là kỹ thuật để cải thiện hiệu suất của mô hình ngôn ngữ bằng cách cải tiến lời đề nghị của người dùng để mô hình có thể hiểu và xử lý yêu cầu của người dùng tốt hơn. RAG là một thuật toán để phân tích dữ liệu bằng cách sử dụng ba nguồn dữ liệu khác nhau là nguồn dữ liệu, nguồn dữ "
